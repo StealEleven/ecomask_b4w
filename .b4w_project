@@ -1,0 +1,34 @@
+[info]
+author = 
+icon = .b4w_icon.png
+name = ecomask_b4w
+title = 
+
+[paths]
+assets_dirs = projects/ecomask_b4w/assets;
+blend_dirs = projects/ecomask_b4w/blender;
+blender_exec = D:\blender\blender.exe
+build_dir = projects/ecomask_b4w/build
+deploy_dir = 
+
+[compile]
+apps = 
+css_ignore = 
+engine_type = copy
+ignore = .git
+js_ignore = 
+optimization = simple
+use_physics = True
+build_cmd = 
+
+[deploy]
+assets_path_dest = assets
+assets_path_prefix = assets
+ignore = .git
+override = 
+
+[url_params]
+
+[editor]
+editor_ignore = 
+

@@ -1,0 +1,142 @@
+*:active {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -moz-tap-highlight-color: rgba(0,0,0,0);
+    tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+  background-color: #000;
+  margin: 0;
+  overflow: hidden;
+}
+
+#main_canvas_container {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+#icons_container {
+    position: absolute;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    visibility: hidden;
+}
+
+#icons_container div{
+  position: absolute;
+  margin: 40px;
+}
+
+#mouse-icon {
+  width: 150px;
+  height: 150px;
+  bottom: 0;
+  right: 0;
+  background-image: url("assets/icons/mouse.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+#threesixteen-icon{
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background-image: url("assets/icons/360.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left top;  
+}
+
+#model-icon{
+  width: 200px;
+  height: 100px;
+  bottom: 0;
+  left: 0;
+  background-image: url("assets/icons/eco-2.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left bottom;    
+}
+
+#preloader_cont {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+/*    top: center;
+    left: center;*/
+/*    background-image: url(assets/preloader_back.png); */
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    visibility: hidden;
+}
+
+#preload_static_path {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 180px;
+    height: 180px;
+    margin-left: -90px;
+    margin-top: -90px;
+  background-image: url(assets/pl_static.png);
+  background-repeat: no-repeat;
+}
+
+#preload_dynamic_container {
+    position: absolute;
+    width: 100%;
+    height: 210px;
+}
+
+#preload_dynamic_path {
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-image: url(assets/pl_dynamic.png);
+}
+
+#percent_text {
+    position:absolute;
+    top: 100%;
+    left: 43%;
+    text-align: center;
+    font-size: 16px;
+    color: #515151;
+    font-family: arial;
+}
+
+
+@media (max-width: 768px) {
+
+
+  #icons_container div{
+    position: absolute;
+    margin: 10px 10px 10px 10px;
+  }
+
+  #mouse-icon {
+    width: 140px;
+    height: 70px;
+    background-image: url("assets/icons/swipe.svg");
+  }
+
+  #threesixteen-icon{
+    width: 80px;
+    height: 80px;  
+  }
+
+  #model-icon{
+    width: 100px;
+    height: 50px;   
+  }
+
+}
