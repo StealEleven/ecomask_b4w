@@ -54,12 +54,46 @@ body {
   background-position: left top;  
 }
 
-#model-icon{
-  width: 200px;
+
+#model-eco1{
+  width: 250px;
+  height: 100px;
+  bottom: 0;
+  left: 0;
+  background-image: url("assets/icons/eco1.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left bottom;    
+}
+
+#model-eco1-1{
+  width: 250px;
+  height: 100px;
+  bottom: 0;
+  left: 0;
+  background-image: url("assets/icons/eco1-1.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left bottom;    
+}
+
+#model-eco2{
+  width: 250px;
   height: 100px;
   bottom: 0;
   left: 0;
   background-image: url("assets/icons/eco-2.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left bottom;    
+}
+
+#model-eco3{
+  width: 250px;
+  height: 100px;
+  bottom: 0;
+  left: 0;
+  background-image: url("assets/icons/eco3.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left bottom;    
@@ -134,8 +168,23 @@ body {
     height: 80px;  
   }
 
-  #model-icon{
-    width: 100px;
+  #model-eco1{
+    width: 120px;
+    height: 50px;   
+  }
+
+  #model-eco1-1{
+    width: 120px;
+    height: 50px;   
+  }
+
+  #model-eco2{
+    width: 120px;
+    height: 50px;   
+  }
+
+  #model-eco3{
+    width: 120px;
     height: 50px;   
   }
 
